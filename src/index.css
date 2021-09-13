@@ -61,7 +61,7 @@ img{
 .main{
   display: flex;
   flex-wrap: wrap;
-  justify-content:start;
+  justify-content:center;
   flex-direction: row;
   align-items: baseline;
 }

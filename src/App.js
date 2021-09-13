@@ -49,6 +49,7 @@ class App extends Component{
     const filter =  event.target.value
     this.setState({filter})
     console.log('change',filter)
+    
   }
 
 
@@ -74,8 +75,9 @@ class App extends Component{
             </div>
           </div>
           <div className="main">
-            {filteredData.map((album) => <Album key={album.title} item={album} /> )}
+              {filteredData.map((album) => <Album key={album.title} item={album} /> )}
           </div>
+          
         </div>
       </>
     )
